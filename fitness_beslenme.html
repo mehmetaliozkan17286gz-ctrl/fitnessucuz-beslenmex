@@ -1,0 +1,2308 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Beslenme 2025 | Ekonomik ve Sağlıklı Beslenme Rehberi</title>
+    <meta name="description" content="2025 Türkiye'de ekonomik fitness beslenme rehberi. A101 ürünleriyle hazırlanmış yüksek proteinli, düşük maliyetli tarifler ve beslenme planları.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #2E8B57;
+            --primary-dark: #1e6b45;
+            --primary-light: #3cb371;
+            --secondary: #FF6B35;
+            --secondary-dark: #e05a2a;
+            --secondary-light: #ff8c5a;
+            --light: #F8F9FA;
+            --dark: #343A40;
+            --gray: #6C757D;
+            --light-gray: #E9ECEF;
+            --success: #28A745;
+            --info: #17A2B8;
+            --warning: #FFC107;
+            --danger: #DC3545;
+            --border-radius: 16px;
+            --box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            --box-shadow-hover: 0 15px 40px rgba(0,0,0,0.15);
+            --transition: all 0.3s ease;
+            --gradient-primary: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            --gradient-secondary: linear-gradient(135deg, var(--secondary), var(--secondary-dark));
+            --gradient-hero: linear-gradient(135deg, #2E8B57, #FF6B35);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: #f8fafc;
+            color: var(--dark);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header Styles */
+        header {
+            background: var(--gradient-primary);
+            color: white;
+            padding: 1.2rem 0;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 800;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo i {
+            margin-right: 12px;
+            font-size: 2rem;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin-left: 1.8rem;
+            position: relative;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: var(--transition);
+            padding: 8px 12px;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            font-size: 1rem;
+        }
+
+        nav ul li a i {
+            margin-right: 8px;
+        }
+
+        nav ul li a:hover {
+            background-color: rgba(255,255,255,0.15);
+            transform: translateY(-2px);
+        }
+
+        .mobile-menu {
+            display: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            background: none;
+            border: none;
+            color: white;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 6rem 0;
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .hero h1 {
+            font-size: 3.2rem;
+            margin-bottom: 1.5rem;
+            animation: fadeIn 1s ease;
+            font-weight: 800;
+            line-height: 1.2;
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            max-width: 800px;
+            margin: 0 auto 2.5rem;
+            animation: fadeIn 1.5s ease;
+            opacity: 0.9;
+        }
+
+        .btn {
+            display: inline-block;
+            background: var(--gradient-secondary);
+            color: white;
+            padding: 14px 32px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: var(--transition);
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+            box-shadow: 0 4px 15px rgba(255,107,53,0.3);
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(255,107,53,0.4);
+        }
+
+        .btn-outline {
+            background: transparent;
+            border: 2px solid white;
+            box-shadow: none;
+        }
+
+        .btn-outline:hover {
+            background: white;
+            color: var(--primary);
+        }
+
+        /* Section Styles */
+        section {
+            padding: 5rem 0;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 4rem;
+            position: relative;
+        }
+
+        .section-title h2 {
+            font-size: 2.5rem;
+            color: var(--primary);
+            display: inline-block;
+            padding-bottom: 15px;
+            font-weight: 700;
+        }
+
+        .section-title h2:after {
+            content: '';
+            position: absolute;
+            width: 80px;
+            height: 4px;
+            background: var(--gradient-secondary);
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 2px;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            max-width: 700px;
+            margin: 0 auto 3rem;
+            color: var(--gray);
+            font-size: 1.1rem;
+        }
+
+        /* Category Filter */
+        .category-filter {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-bottom: 3rem;
+        }
+
+        .filter-btn {
+            padding: 12px 24px;
+            background-color: white;
+            border: 2px solid var(--light-gray);
+            cursor: pointer;
+            font-weight: 600;
+            border-radius: 50px;
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            font-size: 1rem;
+        }
+
+        .filter-btn i {
+            margin-right: 8px;
+        }
+
+        .filter-btn.active, .filter-btn:hover {
+            background-color: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+
+        /* Products Section */
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+
+        .product-card {
+            background-color: white;
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            box-shadow: var(--box-shadow);
+            transition: var(--transition);
+            position: relative;
+        }
+
+        .product-card:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--box-shadow-hover);
+        }
+
+        .product-badge {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background-color: var(--secondary);
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            z-index: 2;
+        }
+
+        .product-img {
+            height: 200px;
+            background-color: #f8f9fa;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .product-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: var(--transition);
+        }
+
+        .product-card:hover .product-img img {
+            transform: scale(1.05);
+        }
+
+        .product-info {
+            padding: 1.8rem;
+        }
+
+        .product-info h3 {
+            margin-bottom: 0.8rem;
+            font-size: 1.3rem;
+            line-height: 1.3;
+        }
+
+        .product-meta {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+            font-size: 0.9rem;
+            color: var(--gray);
+        }
+
+        .product-price {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .product-price-usd {
+            font-size: 0.9rem;
+            color: var(--dark);
+            opacity: 0.7;
+        }
+
+        .product-link {
+            display: inline-flex;
+            align-items: center;
+            color: var(--secondary);
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 1rem;
+            transition: var(--transition);
+        }
+
+        .product-link:hover {
+            color: var(--secondary-dark);
+        }
+
+        .product-link i {
+            margin-left: 8px;
+            transition: var(--transition);
+        }
+
+        .product-link:hover i {
+            transform: translateX(5px);
+        }
+
+        /* Nutrition Cards */
+        .nutrition-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .nutrition-card {
+            background-color: white;
+            border-radius: var(--border-radius);
+            padding: 2.5rem 2rem;
+            box-shadow: var(--box-shadow);
+            text-align: center;
+            transition: var(--transition);
+            border-top: 4px solid var(--primary);
+        }
+
+        .nutrition-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--box-shadow-hover);
+        }
+
+        .nutrition-icon {
+            font-size: 3.5rem;
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+        }
+
+        .nutrition-card h3 {
+            margin-bottom: 1.2rem;
+            font-size: 1.5rem;
+        }
+
+        .nutrition-card p {
+            color: var(--gray);
+            margin-bottom: 1.5rem;
+        }
+
+        .nutrition-tags {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+
+        .nutrition-tag {
+            background-color: var(--light-gray);
+            color: var(--dark);
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+        /* Recipe Cards */
+        .recipe-card {
+            background-color: white;
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            box-shadow: var(--box-shadow);
+            transition: var(--transition);
+        }
+
+        .recipe-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--box-shadow-hover);
+        }
+
+        .recipe-header {
+            padding: 1.5rem;
+            background-color: var(--primary);
+            color: white;
+            display: flex;
+            align-items: center;
+        }
+
+        .recipe-icon {
+            font-size: 2rem;
+            margin-right: 1rem;
+        }
+
+        .recipe-title {
+            flex: 1;
+        }
+
+        .recipe-title h3 {
+            margin-bottom: 0.5rem;
+        }
+
+        .recipe-cost {
+            font-size: 1.2rem;
+            font-weight: 700;
+        }
+
+        .recipe-body {
+            padding: 1.5rem;
+        }
+
+        .recipe-ingredients, .recipe-instructions {
+            margin-bottom: 1.5rem;
+        }
+
+        .recipe-ingredients h4, .recipe-instructions h4 {
+            margin-bottom: 1rem;
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+        }
+
+        .recipe-ingredients h4 i, .recipe-instructions h4 i {
+            margin-right: 10px;
+        }
+
+        .recipe-ingredients ul {
+            list-style-type: none;
+        }
+
+        .recipe-ingredients li {
+            padding: 5px 0;
+            border-bottom: 1px dashed #eee;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .recipe-instructions ol {
+            padding-left: 1.5rem;
+        }
+
+        .recipe-instructions li {
+            margin-bottom: 0.5rem;
+        }
+
+        /* Weekly Plan */
+        .weekly-plan {
+            background-color: white;
+            border-radius: var(--border-radius);
+            padding: 2.5rem;
+            box-shadow: var(--box-shadow);
+            margin-top: 2rem;
+        }
+
+        .plan-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .plan-table th {
+            background-color: var(--primary);
+            color: white;
+            padding: 15px;
+            text-align: left;
+        }
+
+        .plan-table td {
+            padding: 15px;
+            border-bottom: 1px solid var(--light-gray);
+        }
+
+        .plan-table tr:hover {
+            background-color: rgba(46, 139, 87, 0.05);
+        }
+
+        /* Progress Tracker */
+        .progress-tracker {
+            background-color: white;
+            border-radius: var(--border-radius);
+            padding: 2.5rem;
+            box-shadow: var(--box-shadow);
+            margin-top: 2rem;
+        }
+
+        .progress-bar {
+            height: 12px;
+            background-color: var(--light-gray);
+            border-radius: 10px;
+            margin: 1.5rem 0;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: var(--gradient-secondary);
+            border-radius: 10px;
+            width: 0%;
+            transition: width 1s ease;
+        }
+
+        /* BMI Calculator */
+        .bmi-calculator {
+            background-color: white;
+            border-radius: var(--border-radius);
+            padding: 2.5rem;
+            box-shadow: var(--box-shadow);
+            margin-top: 2rem;
+        }
+
+        .calculator-form {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            color: var(--dark);
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid var(--light-gray);
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: var(--transition);
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(46, 139, 87, 0.1);
+        }
+
+        .form-row {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .form-row .form-group {
+            flex: 1;
+        }
+
+        .results {
+            margin-top: 2rem;
+            padding: 1.5rem;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            display: none;
+        }
+
+        .results.active {
+            display: block;
+            animation: fadeIn 0.5s ease;
+        }
+
+        .result-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px dashed #ddd;
+        }
+
+        /* Macro Calculator */
+        .macro-calculator {
+            background-color: white;
+            border-radius: var(--border-radius);
+            padding: 2.5rem;
+            box-shadow: var(--box-shadow);
+            margin-top: 2rem;
+        }
+
+        .macro-results {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .macro-card {
+            background: var(--gradient-primary);
+            color: white;
+            padding: 1.5rem;
+            border-radius: var(--border-radius);
+            text-align: center;
+        }
+
+        .macro-card h4 {
+            margin-bottom: 0.5rem;
+            font-size: 1.1rem;
+        }
+
+        .macro-value {
+            font-size: 1.8rem;
+            font-weight: 700;
+        }
+
+        /* Daily Water Tracker */
+        .water-tracker {
+            background-color: white;
+            border-radius: var(--border-radius);
+            padding: 2.5rem;
+            box-shadow: var(--box-shadow);
+            margin-top: 2rem;
+        }
+
+        .water-cups {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+
+        .water-cup {
+            width: 60px;
+            height: 80px;
+            background-color: #e3f2fd;
+            border: 2px solid #bbdefb;
+            border-radius: 0 0 20px 20px;
+            cursor: pointer;
+            transition: var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .water-cup.active {
+            background-color: #bbdefb;
+            border-color: #64b5f6;
+        }
+
+        .water-cup.active:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 70%;
+            background-color: #64b5f6;
+            border-radius: 0 0 18px 18px;
+        }
+
+        /* Workout Plan */
+        .workout-plan {
+            background-color: white;
+            border-radius: var(--border-radius);
+            padding: 2.5rem;
+            box-shadow: var(--box-shadow);
+            margin-top: 2rem;
+        }
+
+        .workout-days {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .workout-day {
+            background-color: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: var(--border-radius);
+            border-left: 4px solid var(--secondary);
+        }
+
+        .workout-day h4 {
+            margin-bottom: 1rem;
+            color: var(--primary);
+        }
+
+        .workout-day ul {
+            list-style-type: none;
+        }
+
+        .workout-day li {
+            padding: 8px 0;
+            border-bottom: 1px dashed #ddd;
+            display: flex;
+            align-items: center;
+        }
+
+        .workout-day li i {
+            margin-right: 10px;
+            color: var(--secondary);
+        }
+
+        /* Shopping List */
+        .shopping-list {
+            background-color: white;
+            border-radius: var(--border-radius);
+            padding: 2.5rem;
+            box-shadow: var(--box-shadow);
+            margin-top: 2rem;
+        }
+
+        .shopping-items {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .shopping-category {
+            background-color: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: var(--border-radius);
+        }
+
+        .shopping-category h4 {
+            margin-bottom: 1rem;
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+        }
+
+        .shopping-category h4 i {
+            margin-right: 10px;
+        }
+
+        .shopping-category ul {
+            list-style-type: none;
+        }
+
+        .shopping-category li {
+            padding: 8px 0;
+            border-bottom: 1px dashed #ddd;
+            display: flex;
+            align-items: center;
+        }
+
+        .shopping-category li i {
+            margin-right: 10px;
+            color: var(--secondary);
+        }
+
+        /* FAQ Section */
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            background-color: white;
+            border-radius: var(--border-radius);
+            margin-bottom: 1.5rem;
+            box-shadow: var(--box-shadow);
+            overflow: hidden;
+        }
+
+        .faq-question {
+            padding: 1.5rem 2rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: var(--transition);
+        }
+
+        .faq-question:hover {
+            background-color: var(--light-gray);
+        }
+
+        .faq-question i {
+            transition: var(--transition);
+        }
+
+        .faq-answer {
+            padding: 0 2rem;
+            max-height: 0;
+            overflow: hidden;
+            transition: var(--transition);
+        }
+
+        .faq-item.active .faq-answer {
+            padding: 0 2rem 2rem;
+            max-height: 500px;
+        }
+
+        .faq-item.active .faq-question i {
+            transform: rotate(180deg);
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--dark);
+            color: white;
+            padding: 4rem 0 2rem;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 3rem;
+            margin-bottom: 3rem;
+        }
+
+        .footer-section h3 {
+            margin-bottom: 1.8rem;
+            font-size: 1.4rem;
+            position: relative;
+            padding-bottom: 12px;
+        }
+
+        .footer-section h3:after {
+            content: '';
+            position: absolute;
+            width: 50px;
+            height: 3px;
+            background-color: var(--secondary);
+            bottom: 0;
+            left: 0;
+            border-radius: 2px;
+        }
+
+        .footer-links {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 1rem;
+        }
+
+        .footer-links a {
+            color: #ddd;
+            text-decoration: none;
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+        }
+
+        .footer-links a i {
+            margin-right: 10px;
+            width: 20px;
+        }
+
+        .footer-links a:hover {
+            color: var(--secondary);
+            padding-left: 5px;
+        }
+
+        .contact-info {
+            list-style: none;
+        }
+
+        .contact-info li {
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .contact-info i {
+            margin-right: 15px;
+            color: var(--secondary);
+            font-size: 1.2rem;
+            margin-top: 3px;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+
+        .social-links a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background-color: rgba(255,255,255,0.1);
+            border-radius: 50%;
+            color: white;
+            transition: var(--transition);
+        }
+
+        .social-links a:hover {
+            background-color: var(--secondary);
+            transform: translateY(-3px);
+        }
+
+        .copyright {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            font-size: 0.9rem;
+            color: #aaa;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        .pulse {
+            animation: pulse 2s infinite;
+        }
+
+        /* Responsive */
+        @media (max-width: 1200px) {
+            .container {
+                max-width: 100%;
+            }
+        }
+
+        @media (max-width: 992px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero p {
+                font-size: 1.1rem;
+            }
+
+            .section-title h2 {
+                font-size: 2.2rem;
+            }
+
+            .nutrition-cards {
+                grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            }
+
+            .macro-results {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            nav {
+                margin-top: 1.5rem;
+                width: 100%;
+            }
+
+            nav ul {
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+
+            nav ul li {
+                margin: 0 0.8rem 0.8rem;
+            }
+
+            .hero {
+                padding: 4rem 0;
+            }
+
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+
+            section {
+                padding: 3rem 0;
+            }
+
+            .section-title h2 {
+                font-size: 2rem;
+            }
+
+            .products-grid {
+                grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            }
+
+            .weekly-plan, .progress-tracker, .bmi-calculator, .macro-calculator, .water-tracker, .workout-plan, .shopping-list {
+                padding: 2rem;
+            }
+
+            .plan-table {
+                display: block;
+                overflow-x: auto;
+            }
+
+            .calculator-form {
+                grid-template-columns: 1fr;
+            }
+
+            .macro-results {
+                grid-template-columns: 1fr;
+            }
+
+            .water-cups {
+                gap: 0.5rem;
+            }
+
+            .water-cup {
+                width: 50px;
+                height: 70px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .mobile-menu {
+                display: block;
+                position: absolute;
+                top: 1.2rem;
+                right: 1.5rem;
+            }
+
+            nav {
+                display: none;
+                width: 100%;
+                margin-top: 1.5rem;
+            }
+
+            nav.active {
+                display: block;
+            }
+
+            nav ul {
+                flex-direction: column;
+            }
+
+            nav ul li {
+                margin: 0.5rem 0;
+            }
+
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+
+            .btn {
+                padding: 12px 25px;
+                font-size: 0.9rem;
+            }
+
+            .products-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .nutrition-cards {
+                grid-template-columns: 1fr;
+            }
+
+            .weekly-plan, .progress-tracker, .bmi-calculator, .macro-calculator, .water-tracker, .workout-plan, .shopping-list {
+                padding: 1.5rem;
+            }
+
+            .form-row {
+                flex-direction: column;
+                gap: 0;
+            }
+
+            .footer-content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .workout-days {
+                grid-template-columns: 1fr;
+            }
+
+            .shopping-items {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero h1 {
+                font-size: 1.6rem;
+            }
+
+            .section-title h2 {
+                font-size: 1.8rem;
+            }
+
+            .product-info {
+                padding: 1.5rem;
+            }
+
+            .nutrition-card {
+                padding: 2rem 1.5rem;
+            }
+
+            .faq-question {
+                padding: 1.2rem 1.5rem;
+            }
+
+            .faq-answer {
+                padding: 0 1.5rem;
+            }
+
+            .faq-item.active .faq-answer {
+                padding: 0 1.5rem 1.5rem;
+            }
+
+            .water-cup {
+                width: 40px;
+                height: 60px;
+            }
+        }
+    </style>
+</head>
+<body>
+<!-- Header -->
+<header>
+    <div class="container">
+        <div class="header-content">
+            <div class="logo">
+                <i class="fas fa-dumbbell"></i>
+                Fitness Beslenme 2025
+            </div>
+            <button class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav>
+                <ul>
+                    <li><a href="#urunler"><i class="fas fa-shopping-basket"></i> Ürünler</a></li>
+                    <li><a href="#besinler"><i class="fas fa-apple-alt"></i> Besinler</a></li>
+                    <li><a href="#tarifler"><i class="fas fa-utensils"></i> Tarifler</a></li>
+                    <li><a href="#beslenme"><i class="fas fa-calendar-alt"></i> Plan</a></li>
+                    <li><a href="#antrenman"><i class="fas fa-running"></i> Antrenman</a></li>
+                    <li><a href="#alısveris"><i class="fas fa-list"></i> Alışveriş</a></li>
+                    <li><a href="#hesaplayici"><i class="fas fa-calculator"></i> Hesaplayıcı</a></li>
+                    <li><a href="#sss"><i class="fas fa-question-circle"></i> SSS</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="container">
+        <h1>2025 Ekonomik Fitness Beslenme Rehberi</h1>
+        <p>Türkiye'de bütçe dostu, yüksek proteinli ve sağlıklı beslenme için A101 ürünleriyle hazırlanmış tarifler ve beslenme planları</p>
+        <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+            <a href="#besinler" class="btn">Besinlere Göz At</a>
+            <a href="#tarifler" class="btn btn-outline">Tarifleri Keşfet</a>
+        </div>
+    </div>
+</section>
+
+<!-- Products Section -->
+<section id="urunler">
+    <div class="container">
+        <div class="section-title">
+            <h2>Ekonomik Ürünler</h2>
+        </div>
+        <p class="section-subtitle">A101'de bulabileceğiniz, fitness beslenmesi için ideal ürünler ve güncel fiyatları</p>
+        <div class="products-grid">
+            <!-- Product cards will be generated by JavaScript -->
+        </div>
+    </div>
+</section>
+
+<!-- Nutrition Section -->
+<section id="besinler" style="background-color: #f1f5f9;">
+    <div class="container">
+        <div class="section-title">
+            <h2>Besin Kategorileri</h2>
+        </div>
+        <p class="section-subtitle">Fitness beslenmesinde önemli olan besinleri kategorilerine göre keşfedin</p>
+
+        <div class="category-filter">
+            <button class="filter-btn active" data-category="all">
+                <i class="fas fa-th-large"></i> Tümü
+            </button>
+            <button class="filter-btn" data-category="protein">
+                <i class="fas fa-dumbbell"></i> Protein
+            </button>
+            <button class="filter-btn" data-category="carb">
+                <i class="fas fa-bread-slice"></i> Karbonhidrat
+            </button>
+            <button class="filter-btn" data-category="fiber">
+                <i class="fas fa-leaf"></i> Lif
+            </button>
+        </div>
+
+        <div class="nutrition-cards">
+            <!-- Nutrition cards will be generated by JavaScript -->
+        </div>
+    </div>
+</section>
+
+<!-- Recipes Section -->
+<section id="tarifler">
+    <div class="container">
+        <div class="section-title">
+            <h2>Fitness Tarifleri</h2>
+        </div>
+        <p class="section-subtitle">Ekonomik malzemelerle hazırlayabileceğiniz, kas geliştirici ve sağlıklı tarifler</p>
+        <div class="nutrition-cards" id="recipes-container">
+            <!-- Recipe cards will be generated by JavaScript -->
+        </div>
+    </div>
+</section>
+
+<!-- Nutrition Plan Section -->
+<section id="beslenme" style="background-color: #f1f5f9;">
+    <div class="container">
+        <div class="section-title">
+            <h2>Haftalık Beslenme Planı</h2>
+        </div>
+        <p class="section-subtitle">Kas geliştirme ve sağlıklı beslenme için örnek haftalık plan</p>
+
+        <div class="weekly-plan">
+            <table class="plan-table">
+                <thead>
+                <tr>
+                    <th>Gün</th>
+                    <th>Kahvaltı</th>
+                    <th>Öğle Yemeği</th>
+                    <th>Akşam Yemeği</th>
+                    <th>Ara Öğün</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Pazartesi</td>
+                    <td>Yulaflı omlet</td>
+                    <td>Tavuklu bulgur</td>
+                    <td>Mercimek çorbası</td>
+                    <td>Lor peyniri</td>
+                </tr>
+                <tr>
+                    <td>Salı</td>
+                    <td>Muzlu yulaf</td>
+                    <td>Ton balıklı salata</td>
+                    <td>Sebzeli tavuk</td>
+                    <td>Meyve</td>
+                </tr>
+                <tr>
+                    <td>Çarşamba</td>
+                    <td>Yumurta ve peynir</td>
+                    <td>Kırmızı mercimek</td>
+                    <td>Fırında balık</td>
+                    <td>Yoğurt</td>
+                </tr>
+                <tr>
+                    <td>Perşembe</td>
+                    <td>Yulaflı smoothie</td>
+                    <td>Tavuk salatası</td>
+                    <td>Kuru fasulye</td>
+                    <td>Kuru yemiş</td>
+                </tr>
+                <tr>
+                    <td>Cuma</td>
+                    <td>Omlet</td>
+                    <td>Nohut yemeği</td>
+                    <td>Izgara tavuk</td>
+                    <td>Meyve</td>
+                </tr>
+                <tr>
+                    <td>Cumartesi</td>
+                    <td>Peynirli tost</td>
+                    <td>Balık buğulama</td>
+                    <td>Zeytinyağlılar</td>
+                    <td>Ayran</td>
+                </tr>
+                <tr>
+                    <td>Pazar</td>
+                    <td>Menemen</td>
+                    <td>Kıymalı makarna</td>
+                    <td>Sebze çorbası</td>
+                    <td>Meyve</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="progress-tracker">
+            <h3 style="margin-bottom: 1rem;">Haftalık İlerleme Takibi</h3>
+            <p>Bu haftaki beslenme hedeflerinize ne kadar yakınsınız?</p>
+
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+
+            <div style="display: flex; justify-content: space-between;">
+                <span>0%</span>
+                <span id="progressPercentage">50%</span>
+                <span>100%</span>
+            </div>
+
+            <button class="btn" style="margin-top: 1.5rem; width: 100%;" id="updateProgress">
+                İlerlemeyi Güncelle
+            </button>
+        </div>
+    </div>
+</section>
+
+<!-- Workout Section -->
+<section id="antrenman">
+    <div class="container">
+        <div class="section-title">
+            <h2>Haftalık Antrenman Planı</h2>
+        </div>
+        <p class="section-subtitle">Evde veya spor salonunda uygulayabileceğiniz etkili antrenman programı</p>
+
+        <div class="workout-plan">
+            <div class="workout-days">
+                <div class="workout-day">
+                    <h4>Pazartesi - Göğüs & Triceps</h4>
+                    <ul>
+                        <li><i class="fas fa-dumbbell"></i> Bench Press: 4x8-12</li>
+                        <li><i class="fas fa-dumbbell"></i> Incline Dumbbell Press: 3x10-12</li>
+                        <li><i class="fas fa-dumbbell"></i> Chest Fly: 3x12-15</li>
+                        <li><i class="fas fa-dumbbell"></i> Triceps Pushdown: 3x12-15</li>
+                        <li><i class="fas fa-dumbbell"></i> Overhead Triceps: 3x10-12</li>
+                    </ul>
+                </div>
+
+                <div class="workout-day">
+                    <h4>Salı - Sırt & Biceps</h4>
+                    <ul>
+                        <li><i class="fas fa-dumbbell"></i> Pull-ups: 4xMax</li>
+                        <li><i class="fas fa-dumbbell"></i> Bent-over Row: 4x8-12</li>
+                        <li><i class="fas fa-dumbbell"></i> Lat Pulldown: 3x10-12</li>
+                        <li><i class="fas fa-dumbbell"></i> Bicep Curls: 3x12-15</li>
+                        <li><i class="fas fa-dumbbell"></i> Hammer Curls: 3x10-12</li>
+                    </ul>
+                </div>
+
+                <div class="workout-day">
+                    <h4>Çarşamba - Bacak</h4>
+                    <ul>
+                        <li><i class="fas fa-dumbbell"></i> Squats: 4x8-12</li>
+                        <li><i class="fas fa-dumbbell"></i> Lunges: 3x10-12</li>
+                        <li><i class="fas fa-dumbbell"></i> Leg Press: 3x12-15</li>
+                        <li><i class="fas fa-dumbbell"></i> Calf Raises: 4x15-20</li>
+                        <li><i class="fas fa-dumbbell"></i> Leg Curls: 3x12-15</li>
+                    </ul>
+                </div>
+
+                <div class="workout-day">
+                    <h4>Perşembe - Omuz & Karın</h4>
+                    <ul>
+                        <li><i class="fas fa-dumbbell"></i> Shoulder Press: 4x8-12</li>
+                        <li><i class="fas fa-dumbbell"></i> Lateral Raises: 3x12-15</li>
+                        <li><i class="fas fa-dumbbell"></i> Front Raises: 3x12-15</li>
+                        <li><i class="fas fa-dumbbell"></i> Plank: 3x60sn</li>
+                        <li><i class="fas fa-dumbbell"></i> Crunches: 3x15-20</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Shopping List Section -->
+<section id="alısveris" style="background-color: #f1f5f9;">
+    <div class="container">
+        <div class="section-title">
+            <h2>Haftalık Alışveriş Listesi</h2>
+        </div>
+        <p class="section-subtitle">Tüm tarifler için gerekli malzemelerin listesi</p>
+
+        <div class="shopping-list">
+            <div class="shopping-items">
+                <div class="shopping-category">
+                    <h4><i class="fas fa-egg"></i> Protein Kaynakları</h4>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Yumurta (M Boy 30'lu)</li>
+                        <li><i class="fas fa-check"></i> Yumurta (L Boy 15'li)</li>
+                        <li><i class="fas fa-check"></i> Peynes Lor Peyniri 1 Kg</li>
+                        <li><i class="fas fa-check"></i> Wawa Konserve Ton Balığı 2x160 G</li>
+                        <li><i class="fas fa-check"></i> Lezita Dondurulmuş Piliç Bonfile 700 G</li>
+                        <li><i class="fas fa-check"></i> Birşah %3,1 Yağlı Süt 1 L</li>
+                    </ul>
+                </div>
+
+                <div class="shopping-category">
+                    <h4><i class="fas fa-bread-slice"></i> Karbonhidrat Kaynakları</h4>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Eti Lifalif Yulaf Ezmesi 665 G</li>
+                        <li><i class="fas fa-check"></i> Yöremce Pilavlık Bulgur 1000 G</li>
+                        <li><i class="fas fa-check"></i> Ovadan Baldo Pirinç 2,5 Kg</li>
+                        <li><i class="fas fa-check"></i> Söke Gelenek Tam Buğday Unu 2 Kg</li>
+                        <li><i class="fas fa-check"></i> Yerli Muz Kg</li>
+                    </ul>
+                </div>
+
+                <div class="shopping-category">
+                    <h4><i class="fas fa-seedling"></i> Baklagiller</h4>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Yöremce Toptane Kırmızı Mercimek 1000 G</li>
+                        <li><i class="fas fa-check"></i> Yöremce Dermason Fasulye 1000 G</li>
+                        <li><i class="fas fa-check"></i> Yöremce Koçbaşı Nohut 1000 G</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div style="margin-top: 2rem; padding: 1.5rem; background-color: var(--primary); color: white; border-radius: var(--border-radius);">
+                <h4 style="margin-bottom: 1rem; display: flex; align-items: center;">
+                    <i class="fas fa-calculator" style="margin-right: 10px;"></i> Toplam Maliyet Hesaplaması
+                </h4>
+                <div class="result-item" style="border-bottom: 1px dashed rgba(255,255,255,0.3);">
+                    <span>Toplam TL Tutarı:</span>
+                    <span>₺1.336,55 TL</span>
+                </div>
+                <div class="result-item">
+                    <span>Dolar Karşılığı:</span>
+                    <span>$31,75 USD</span>
+                </div>
+                <p style="margin-top: 1rem; font-size: 0.9rem; opacity: 0.9;">
+                    * Dolar kuru: $1 = ₺42,10 (2025 güncel kur)
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Calculator Section -->
+<section id="hesaplayici">
+    <div class="container">
+        <div class="section-title">
+            <h2>Beslenme Hesaplayıcıları</h2>
+        </div>
+        <p class="section-subtitle">Vücut ölçülerinize göre kişiselleştirilmiş beslenme planı oluşturun</p>
+
+        <div class="bmi-calculator">
+            <h3 style="margin-bottom: 1.5rem;">BMI (Vücut Kitle İndeksi) Hesaplayıcı</h3>
+
+            <form id="bmi-form">
+                <div class="calculator-form">
+                    <div class="form-group">
+                        <label for="weight">Kilonuz (kg)</label>
+                        <input type="number" id="weight" class="form-control" required min="30" max="200">
+                    </div>
+                    <div class="form-group">
+                        <label for="height">Boyunuz (cm)</label>
+                        <input type="number" id="height" class="form-control" required min="100" max="250">
+                    </div>
+                </div>
+                <button type="submit" class="btn" style="width: 100%;">Hesapla</button>
+            </form>
+
+            <div class="results" id="bmi-results">
+                <h4 style="margin-bottom: 1rem;">BMI Sonuçları</h4>
+                <div class="result-item">
+                    <span>BMI Değeriniz:</span>
+                    <span id="bmi-value">0</span>
+                </div>
+                <div class="result-item">
+                    <span>Durumunuz:</span>
+                    <span id="bmi-status">-</span>
+                </div>
+                <div class="result-item">
+                    <span>Öneriler:</span>
+                    <span id="bmi-suggestion">-</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="macro-calculator">
+            <h3 style="margin-bottom: 1.5rem;">Günlük Makro Besin Hesaplayıcı</h3>
+
+            <form id="macro-form">
+                <div class="calculator-form">
+                    <div class="form-group">
+                        <label for="macro-weight">Kilonuz (kg)</label>
+                        <input type="number" id="macro-weight" class="form-control" required min="30" max="200">
+                    </div>
+                    <div class="form-group">
+                        <label for="macro-height">Boyunuz (cm)</label>
+                        <input type="number" id="macro-height" class="form-control" required min="100" max="250">
+                    </div>
+                    <div class="form-group">
+                        <label for="macro-age">Yaşınız</label>
+                        <input type="number" id="macro-age" class="form-control" required min="15" max="80">
+                    </div>
+                    <div class="form-group">
+                        <label for="macro-activity">Aktivite Seviyeniz</label>
+                        <select id="macro-activity" class="form-control" required>
+                            <option value="">Seçiniz</option>
+                            <option value="1.2">Hareketsiz</option>
+                            <option value="1.375">Hafif Aktif</option>
+                            <option value="1.55">Orta Aktif</option>
+                            <option value="1.725">Çok Aktif</option>
+                            <option value="1.9">Ekstra Aktif</option>
+                        </select>
+                    </div>
+                </div>
+                <button type="submit" class="btn" style="width: 100%;">Makroları Hesapla</button>
+            </form>
+
+            <div class="results" id="macro-results">
+                <h4 style="margin-bottom: 1rem;">Günlük Makro İhtiyaçlarınız</h4>
+                <div class="macro-results">
+                    <div class="macro-card">
+                        <h4>Kalori</h4>
+                        <div class="macro-value" id="calorie-value">0</div>
+                        <small>kcal/gün</small>
+                    </div>
+                    <div class="macro-card">
+                        <h4>Protein</h4>
+                        <div class="macro-value" id="protein-value">0g</div>
+                        <small>g/gün</small>
+                    </div>
+                    <div class="macro-card">
+                        <h4>Karbonhidrat</h4>
+                        <div class="macro-value" id="carb-value">0g</div>
+                        <small>g/gün</small>
+                    </div>
+                    <div class="macro-card">
+                        <h4>Yağ</h4>
+                        <div class="macro-value" id="fat-value">0g</div>
+                        <small>g/gün</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="water-tracker">
+            <h3 style="margin-bottom: 1.5rem;">Günlük Su Takipçisi</h3>
+            <p>Günde 8-10 bardak su içmek metabolizmanızı hızlandırır ve performansınızı artırır.</p>
+
+            <div class="water-cups">
+                <div class="water-cup" data-cup="1"></div>
+                <div class="water-cup" data-cup="2"></div>
+                <div class="water-cup" data-cup="3"></div>
+                <div class="water-cup" data-cup="4"></div>
+                <div class="water-cup" data-cup="5"></div>
+                <div class="water-cup" data-cup="6"></div>
+                <div class="water-cup" data-cup="7"></div>
+                <div class="water-cup" data-cup="8"></div>
+            </div>
+
+            <div style="text-align: center;">
+                <p id="water-count">0/8 bardak su içtiniz</p>
+                <button class="btn" id="reset-water" style="margin-top: 1rem;">Sıfırla</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ Section -->
+<section id="sss" style="background-color: #f1f5f9;">
+    <div class="container">
+        <div class="section-title">
+            <h2>Sık Sorulan Sorular</h2>
+        </div>
+        <p class="section-subtitle">Fitness beslenmesi hakkında en çok merak edilen sorular ve cevapları</p>
+
+        <div class="faq-container">
+            <!-- FAQ items will be generated by JavaScript -->
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Fitness Beslenme 2025</h3>
+                <p>Türkiye'de ekonomik fitness beslenme rehberi. Sağlıklı ve uygun fiyatlı beslenme önerileri.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Hızlı Bağlantılar</h3>
+                <ul class="footer-links">
+                    <li><a href="#urunler"><i class="fas fa-chevron-right"></i> Ürünler</a></li>
+                    <li><a href="#besinler"><i class="fas fa-chevron-right"></i> Besinler</a></li>
+                    <li><a href="#tarifler"><i class="fas fa-chevron-right"></i> Tarifler</a></li>
+                    <li><a href="#beslenme"><i class="fas fa-chevron-right"></i> Beslenme Planı</a></li>
+                    <li><a href="#antrenman"><i class="fas fa-chevron-right"></i> Antrenman Planı</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>İletişim</h3>
+                <ul class="contact-info">
+                    <li>
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <div>+905423417006</div>
+                            <small>(WhatsApp)</small>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <div>mehmetaliozkan17286gz@gmail.com</div>
+                    </li>
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>Türkiye</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2025 Fitness Beslenme Rehberi. Tüm hakları saklıdır.
+        </div>
+    </div>
+</footer>
+
+<script>
+    // Products Data
+    const products = [
+        {
+            name: "Yumurta M Boy 30'lu",
+            price: 169.00,
+            link: "https://www.a101.com.tr/kapida/sut-urunleri-kahvaltilik/yumurta-m-boy-30lu_p-11002432",
+            image: "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+            category: "protein",
+            badge: "Popüler"
+        },
+        {
+            name: "Yumurta L Boy 15'li",
+            price: 99.00,
+            link: "https://www.a101.com.tr/kapida/sut-urunleri-kahvaltilik/yumurta-l-boy-15li-_p-11002425",
+            image: "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+            category: "protein"
+        },
+        {
+            name: "Eti Lifalif Yulaf Ezmesi 665 G",
+            price: 69.50,
+            link: "https://www.a101.com.tr/kapida/sut-urunleri-kahvaltilik/eti-lifalif-ince-ogutulmus-yulaf-ezmesi-665-g_p-16002078",
+            image: "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+            category: "carb",
+            badge: "Yeni"
+        },
+        {
+            name: "Peynes Lor Peyniri 1 Kg",
+            price: 65.00,
+            link: "https://www.a101.com.tr/kapida/sut-urunleri-kahvaltilik/peynes-lor-peyniri-1-kg-_p-12003507",
+            image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+            category: "protein"
+        },
+        {
+            name: "Wawa Konserve Ton Balığı 2x160 G",
+            price: 99.00,
+            link: "https://www.a101.com.tr/kapida/temel-gida/wawa-konserve-ton-baligi-2x160-g_p-18000992",
+            image: "https://images.unsplash.com/photo-1559737558-2f5a35f4523b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+            category: "protein"
+        },
+        {
+            name: "Yöremce Pilavlık Bulgur 1000 G",
+            price: 27.50,
+            link: "https://www.a101.com.tr/kapida/temel-gida/yoremce-pilavlik-bulgur-1000-g_p-14001908",
+            image: "https://images.unsplash.com/photo-1598866592122-6eef89a799a6?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+            category: "carb"
+        },
+        {
+            name: "Ovadan Baldo Pirinç 2,5 Kg",
+            price: 192.50,
+            link: "https://www.a101.com.tr/kapida/temel-gida/ovadan-baldo-pirinc-25-kg_p-14001903",
+            image: "https://images.unsplash.com/photo-1586201375761-83865001e31c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+            category: "carb"
+        },
+        {
+            name: "Söke Gelenek Tam Buğday Unu 2 Kg",
+            price: 82.50,
+            link: "https://www.a101.com.tr/kapida/temel-gida/soke-gelenek-tam-bugday-unu-2-kg_p-28000298",
+            image: "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+            category: "carb"
+        },
+        {
+            name: "Yerli Muz Kg",
+            price: 89.50,
+            link: "https://www.a101.com.tr/kapida/meyve-sebze/yerli-muz-kg_p-20000804",
+            image: "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+            category: "carb"
+        },
+        {
+            name: "Yöremce Toptane Kırmızı Mercimek 1000 G",
+            price: 44.50,
+            link: "https://www.a101.com.tr/kapida/temel-gida/yoremce-toptane-kirmizi-mercimek-1000-g_p-14001921",
+            image: "https://images.unsplash.com/photo-1598965675045-45c1b476c848?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+            category: "protein"
+        },
+        {
+            name: "Birşah %3,1 Yağlı Süt 1 L",
+            price: 33.00,
+            link: "https://www.a101.com.tr/kapida/sut-urunleri-kahvaltilik/birsah-31-yagli-sut-1-l_p-12000001",
+            image: "https://images.unsplash.com/photo-1563636619-e9143da7973b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+            category: "protein"
+        },
+        {
+            name: "Yöremce Dermason Fasulye 1000 G",
+            price: 59.75,
+            link: "https://www.a101.com.tr/kapida/temel-gida/yoremce-dermason-fasulye-1000-g_p-14001919",
+            image: "https://images.unsplash.com/photo-1598965675045-45c1b476c848?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+            category: "protein"
+        },
+        {
+            name: "Yöremce Koçbaşı Nohut 1000 G",
+            price: 57.50,
+            link: "https://www.a101.com.tr/kapida/temel-gida/yoremce-kocbasi-nohut-1000-g_p-14001922",
+            image: "https://images.unsplash.com/photo-1598965675045-45c1b476c848?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+            category: "protein"
+        },
+        {
+            name: "Lezita Dondurulmuş Piliç Bonfile 700 G",
+            price: 104.30,
+            link: "https://www.a101.com.tr/kapida/et-tavuk-sarkuteri/lezita-dondurulmus-pilic-bonfile-700-g_p-11002879",
+            image: "https://images.unsplash.com/photo-1604503468506-a8da13d82791?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+            category: "protein",
+            badge: "Fırsat"
+        }
+    ];
+
+    // Nutrition Data
+    const nutritionItems = [
+        {
+            title: "Protein Kaynakları",
+            icon: "fas fa-dumbbell",
+            description: "Kas yapımı ve onarımı için gerekli olan protein kaynakları. Yumurta, tavuk, balık, lor peyniri ve baklagiller mükemmel seçeneklerdir.",
+            category: "protein",
+            tags: ["Kas Gelişimi", "Onarım", "Doyurucu"]
+        },
+        {
+            title: "Karbonhidrat Kaynakları",
+            icon: "fas fa-bread-slice",
+            description: "Enerji sağlayan kompleks karbonhidratlar. Yulaf, bulgur, tam buğday ürünleri ve pirinç uzun süreli enerji sağlar.",
+            category: "carb",
+            tags: ["Enerji", "Tokluk", "Performans"]
+        },
+        {
+            title: "Lif Kaynakları",
+            icon: "fas fa-leaf",
+            description: "Sindirim sistemi sağlığı ve tokluk hissi için gerekli lif kaynakları. Sebzeler, meyveler ve tam tahıllar zengin lif içerir.",
+            category: "fiber",
+            tags: ["Sindirim", "Tokluk", "Sağlıklı Bağırsak"]
+        },
+        {
+            title: "Süt Ürünleri",
+            icon: "fas fa-cheese",
+            description: "Kalsiyum ve protein açısından zengin süt ürünleri. Lor peyniri, süt ve yoğurt kas gelişimi için idealdir.",
+            category: "protein",
+            tags: ["Kalsiyum", "Protein", "Kemik Sağlığı"]
+        },
+        {
+            title: "Baklagiller",
+            icon: "fas fa-seedling",
+            description: "Bitkisel protein ve lif kaynağı baklagiller. Mercimek, nohut ve fasulye ekonomik ve besleyici seçeneklerdir.",
+            category: "protein",
+            tags: ["Bitkisel Protein", "Lif", "Ekonomik"]
+        },
+        {
+            title: "Tam Tahıllar",
+            icon: "fas fa-wheat-awn",
+            description: "Vitamin, mineral ve lif açısından zengin tam tahıllar. Enerji verir ve uzun süre tok tutar.",
+            category: "carb",
+            tags: ["Enerji", "Lif", "Vitamin"]
+        }
+    ];
+
+    // Recipes Data
+    const recipes = [
+        {
+            title: "Yulaflı Lor Peynirli Omlet",
+            icon: "fas fa-egg",
+            description: "Yüksek proteinli ve doyurucu bir kahvaltı seçeneği. Kas gelişimi için mükemmel bir başlangıç.",
+            category: "protein",
+            tags: ["Kahvaltı", "Yüksek Protein", "Hızlı"],
+            cost: 7.50,
+            ingredients: [
+                { name: "Yumurta (M Boy)", amount: "2 adet", cost: 11.27 },
+                { name: "Lor Peyniri", amount: "50 gr", cost: 3.25 },
+                { name: "Yulaf Ezmesi", amount: "3 yemek kaşığı", cost: 3.14 }
+            ],
+            instructions: [
+                "Yumurtaları bir kasede çırpın.",
+                "Lor peyniri ve yulaf ezmesini ekleyip karıştırın.",
+                "Tavada az yağ ile (varsa zeytinyağı veya tereyağı) omlet şeklinde pişirin."
+            ]
+        },
+        {
+            title: "Muzlu Yulaf Lapası",
+            icon: "fas fa-bowl-food",
+            description: "Enerji deposu bir kahvaltı. Uzun süre tok tutar ve antrenman öncesi için idealdir.",
+            category: "carb",
+            tags: ["Enerji", "Lifli", "Pratik"],
+            cost: 10.00,
+            ingredients: [
+                { name: "Yulaf Ezmesi", amount: "5-6 yemek kaşığı", cost: 5.23 },
+                { name: "Süt (%3,1 Yağlı)", amount: "1 su bardağı", cost: 8.25 },
+                { name: "Yerli Muz", amount: "Yarım", cost: 11.19 }
+            ],
+            instructions: [
+                "Süt ve yulafı bir tencerede karıştırarak kısık ateşte yulaflar yumuşayana kadar pişirin.",
+                "Kaseye alın ve üzerine dilimlenmiş muzu ekleyin."
+            ]
+        },
+        {
+            title: "Tavuklu Bulgur Pilavı",
+            icon: "fas fa-utensils",
+            description: "Öğle yemeği için mükemmel bir seçenek. Protein ve kompleks karbonhidrat kombinasyonu.",
+            category: "protein",
+            tags: ["Ana Öğün", "Doyurucu", "Kas Gelişimi"],
+            cost: 15.00,
+            ingredients: [
+                { name: "Piliç Bonfile", amount: "150 gr", cost: 22.35 },
+                { name: "Pilavlık Bulgur", amount: "Yarım su bardağı", cost: 3.44 }
+            ],
+            instructions: [
+                "Piliç bonfileyi küçük parçalara ayırıp haşlayın veya az yağda soteleyin.",
+                "Bulguru az yağda kavurun ve su ekleyip pilav yapın.",
+                "Tavuk parçalarını pilavın üzerine ekleyerek servis edin."
+            ]
+        },
+        {
+            title: "Kırmızı Mercimek Çorbası",
+            icon: "fas fa-bowl-rice",
+            description: "Bitkisel protein ve lif kaynağı. Hafif ama besleyici bir öğün seçeneği.",
+            category: "protein",
+            tags: ["Çorba", "Bitkisel Protein", "Hafif"],
+            cost: 5.00,
+            ingredients: [
+                { name: "Kırmızı Mercimek", amount: "Yarım su bardağı", cost: 5.56 }
+            ],
+            instructions: [
+                "Mercimeği yıkayın, su ve (varsa soğan/baharat) ile yumuşayana kadar haşlayin.",
+                "Blenderdan geçirerek çorba kıvamına getirin.",
+                "Yanında Tam Buğday Unu ile yapılmış bir dilim ekmekle tüketebilirsiniz."
+            ]
+        },
+        {
+            title: "Lor Peynirli Muz",
+            icon: "fas fa-apple-alt",
+            description: "Antrenman öncesi veya sonrası için mükemmel bir ara öğün. Hızlı ve besleyici.",
+            category: "protein",
+            tags: ["Ara Öğün", "Hızlı", "Protein"],
+            cost: 7.00,
+            ingredients: [
+                { name: "Lor Peyniri", amount: "100 gr", cost: 6.50 },
+                { name: "Yerli Muz", amount: "1 adet", cost: 22.38 }
+            ],
+            instructions: [
+                "Lor peynirini bir kaseye alın.",
+                "Muzu dilimleyip üzerine ekleyin.",
+                "Dilerseniz az tarçın ekleyebilirsiniz."
+            ]
+        },
+        {
+            title: "Ton Balıklı Tam Buğday Ekmeği",
+            icon: "fas fa-fish",
+            description: "Hızlı ve pratik bir öğün. Omega-3 ve protein deposu.",
+            category: "protein",
+            tags: ["Pratik", "Omega-3", "Protein"],
+            cost: 12.00,
+            ingredients: [
+                { name: "Ton Balığı", amount: "Yarım kutu", cost: 24.75 },
+                { name: "Tam Buğday Unu", amount: "2 dilim ekmek", cost: 8.25 }
+            ],
+            instructions: [
+                "Suyu süzülmüş ton balığını tam buğday ekmeği üzerine sürün/koyun."
+            ]
+        }
+    ];
+
+    // FAQ Data
+    const faqItems = [
+        {
+            question: "Fitness beslenmede en önemli öğün hangisidir?",
+            answer: "Kahvaltı, günün en önemli öğünüdür. Vücudu enerji ile besler ve metabolizmayı hızlandırır. Protein ve kompleks karbonhidrat içeren bir kahvaltı önerilir."
+        },
+        {
+            question: "Günlük protein ihtiyacımı nasıl karşılayabilirim?",
+            answer: "Yumurta, lor peyniri, tavuk, balık ve baklagiller gibi ekonomik protein kaynakları tüketerek günlük ihtiyacınızı karşılayabilirsiniz."
+        },
+        {
+            question: "Ekonomik olarak kas yapmak mümkün mü?",
+            answer: "Evet. A101 ve benzeri marketlerden alınabilecek uygun fiyatlı protein kaynakları ve baklagiller ile kas yapımı mümkündür."
+        },
+        {
+            question: "Öğün atlamak kilo vermeme yardımcı olur mu?",
+            answer: "Hayır. Öğün atlamak metabolizmayı yavaşlatır ve açlık krizlerine yol açabilir. Dengeli öğünler kilo kontrolü için önemlidir."
+        },
+        {
+            question: "Ara öğünler neden önemli?",
+            answer: "Kan şekeri seviyesini dengeler, açlık krizlerini önler ve kas yapımı için sürekli enerji sağlar."
+        },
+        {
+            question: "Hangi karbonhidratlar tercih edilmeli?",
+            answer: "Kompleks karbonhidratlar (yulaf, bulgur, tam buğday ekmeği, pirinç) enerji sağlar ve uzun süre tokluk hissi verir."
+        },
+        {
+            question: "Spor sonrası ne yemeliyim?",
+            answer: "Protein ve karbonhidrat içeren bir öğün tüketmek kas onarımı ve toparlanma için idealdir. Örneğin, yumurta ve yulaf, tavuk ve bulgur gibi."
+        },
+        {
+            question: "Hangi yağlar sağlıklıdır?",
+            answer: "Zeytinyağı, avokado, fındık, ceviz gibi doymamış yağlar tercih edilmelidir."
+        },
+        {
+            question: "Ne kadar su içmeliyim?",
+            answer: "Günde en az 2-3 litre su tüketmek önerilir. Spor yapıyorsanız daha fazla içilmelidir."
+        },
+        {
+            question: "Hızlı kilo vermek mümkün mü?",
+            answer: "Hızlı kilo kaybı sağlıksızdır ve kas kaybına yol açabilir. Haftada 0,5-1 kg kayıp idealdir."
+        },
+        {
+            question: "Vejetaryen beslenirken protein ihtiyacı nasıl karşılanır?",
+            answer: "Yumurta, süt, lor peyniri, baklagiller ve tofu ile protein ihtiyacı karşılanabilir."
+        },
+        {
+            question: "Fitness beslenmede ekonomik alışveriş nasıl yapılır?",
+            answer: "Market promosyonlarını takip edin, baklagiller, yumurta, süt ve tahılları toplu alın, mevsim sebze ve meyvelerini tercih edin."
+        }
+    ];
+
+    // DOM Content Loaded
+    document.addEventListener('DOMContentLoaded', function() {
+        // Generate Products
+        const productsGrid = document.querySelector('.products-grid');
+        products.forEach(product => {
+            const usdPrice = (product.price / 42.10).toFixed(2);
+            const productCard = document.createElement('div');
+            productCard.className = 'product-card';
+            productCard.setAttribute('data-category', product.category);
+
+            let badgeHTML = '';
+            if (product.badge) {
+                badgeHTML = `<div class="product-badge">${product.badge}</div>`;
+            }
+
+            productCard.innerHTML = `
+                    ${badgeHTML}
+                    <div class="product-img">
+                        <img src="${product.image}" alt="${product.name}" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>${product.name}</h3>
+                        <div class="product-meta">
+                            <span><i class="fas fa-tag"></i> ${product.category === 'protein' ? 'Protein' :
+                product.category === 'carb' ? 'Karbonhidrat' :
+                    product.category === 'fiber' ? 'Lif' : 'Yağ'}</span>
+                        </div>
+                        <div class="product-price">₺${product.price.toFixed(2)}</div>
+                        <div class="product-price-usd">$${usdPrice} USD</div>
+                        <a href="${product.link}" target="_blank" class="product-link">Ürünü İncele <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                `;
+            productsGrid.appendChild(productCard);
+        });
+
+        // Generate Nutrition Cards
+        const nutritionContainer = document.querySelector('.nutrition-cards');
+        nutritionItems.forEach(item => {
+            const nutritionCard = document.createElement('div');
+            nutritionCard.className = 'nutrition-card';
+            nutritionCard.setAttribute('data-category', item.category);
+
+            nutritionCard.innerHTML = `
+                    <div class="nutrition-icon">
+                        <i class="${item.icon}"></i>
+                    </div>
+                    <h3>${item.title}</h3>
+                    <p>${item.description}</p>
+                    <div class="nutrition-tags">
+                        ${item.tags.map(tag => `<span class="nutrition-tag">${tag}</span>`).join('')}
+                    </div>
+                `;
+            nutritionContainer.appendChild(nutritionCard);
+        });
+
+        // Generate Recipes
+        const recipesContainer = document.getElementById('recipes-container');
+        recipes.forEach(recipe => {
+            const recipeCard = document.createElement('div');
+            recipeCard.className = 'recipe-card';
+
+            const ingredientsHTML = recipe.ingredients.map(ing => `
+                    <li>
+                        <span>${ing.name} - ${ing.amount}</span>
+                        <span>₺${ing.cost.toFixed(2)}</span>
+                    </li>
+                `).join('');
+
+            const instructionsHTML = recipe.instructions.map(step => `<li>${step}</li>`).join('');
+
+            recipeCard.innerHTML = `
+                    <div class="recipe-header">
+                        <div class="recipe-icon">
+                            <i class="${recipe.icon}"></i>
+                        </div>
+                        <div class="recipe-title">
+                            <h3>${recipe.title}</h3>
+                            <div class="nutrition-tags">
+                                ${recipe.tags.map(tag => `<span class="nutrition-tag">${tag}</span>`).join('')}
+                            </div>
+                        </div>
+                        <div class="recipe-cost">₺${recipe.cost.toFixed(2)}</div>
+                    </div>
+                    <div class="recipe-body">
+                        <div class="recipe-ingredients">
+                            <h4><i class="fas fa-list"></i> Malzemeler</h4>
+                            <ul>
+                                ${ingredientsHTML}
+                            </ul>
+                        </div>
+                        <div class="recipe-instructions">
+                            <h4><i class="fas fa-mortar-pestle"></i> Hazırlanışı</h4>
+                            <ol>
+                                ${instructionsHTML}
+                            </ol>
+                        </div>
+                    </div>
+                `;
+            recipesContainer.appendChild(recipeCard);
+        });
+
+        // Generate FAQ
+        const faqContainer = document.querySelector('.faq-container');
+        faqItems.forEach((item, index) => {
+            const faqItem = document.createElement('div');
+            faqItem.className = 'faq-item';
+            if (index === 0) faqItem.classList.add('active');
+
+            faqItem.innerHTML = `
+                    <div class="faq-question">
+                        <span>${item.question}</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>${item.answer}</p>
+                    </div>
+                `;
+            faqContainer.appendChild(faqItem);
+        });
+
+        // Category Filter Functionality
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const nutritionCards = document.querySelectorAll('.nutrition-card[data-category]');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', function() {
+                // Remove active class from all buttons
+                filterBtns.forEach(b => b.classList.remove('active'));
+                // Add active class to clicked button
+                this.classList.add('active');
+
+                const category = this.getAttribute('data-category');
+
+                // Show/hide cards based on category
+                nutritionCards.forEach(card => {
+                    if (category === 'all' || card.getAttribute('data-category') === category) {
+                        card.style.display = 'block';
+                        setTimeout(() => {
+                            card.style.opacity = '1';
+                            card.style.transform = 'translateY(0)';
+                        }, 10);
+                    } else {
+                        card.style.opacity = '0';
+                        card.style.transform = 'translateY(20px)';
+                        setTimeout(() => {
+                            card.style.display = 'none';
+                        }, 300);
+                    }
+                });
+            });
+        });
+
+        // FAQ Toggle Functionality
+        const faqItemsElements = document.querySelectorAll('.faq-item');
+        faqItemsElements.forEach(item => {
+            const question = item.querySelector('.faq-question');
+            question.addEventListener('click', function() {
+                // Close all other items
+                faqItemsElements.forEach(otherItem => {
+                    if (otherItem !== item) {
+                        otherItem.classList.remove('active');
+                    }
+                });
+
+                // Toggle current item
+                item.classList.toggle('active');
+            });
+        });
+
+        // Mobile Menu Toggle
+        const mobileMenu = document.querySelector('.mobile-menu');
+        const nav = document.querySelector('nav');
+
+        mobileMenu.addEventListener('click', function() {
+            nav.classList.toggle('active');
+        });
+
+        // Progress Tracker
+        const progressFill = document.getElementById('progressFill');
+        const progressPercentage = document.getElementById('progressPercentage');
+        const updateProgressBtn = document.getElementById('updateProgress');
+
+        let progress = 50;
+
+        updateProgressBtn.addEventListener('click', function() {
+            progress = Math.min(100, progress + 10);
+            progressFill.style.width = `${progress}%`;
+            progressPercentage.textContent = `${progress}%`;
+
+            if (progress === 100) {
+                this.textContent = 'Tebrikler! Hedefe Ulaştınız';
+                this.disabled = true;
+            }
+        });
+
+        // BMI Calculator
+        const bmiForm = document.getElementById('bmi-form');
+        const bmiResults = document.getElementById('bmi-results');
+        const bmiValue = document.getElementById('bmi-value');
+        const bmiStatus = document.getElementById('bmi-status');
+        const bmiSuggestion = document.getElementById('bmi-suggestion');
+
+        bmiForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const weight = parseFloat(document.getElementById('weight').value);
+            const height = parseFloat(document.getElementById('height').value) / 100; // Convert to meters
+
+            if (weight && height) {
+                const bmi = (weight / (height * height)).toFixed(1);
+                bmiValue.textContent = bmi;
+
+                let status, suggestion;
+
+                if (bmi < 18.5) {
+                    status = 'Zayıf';
+                    suggestion = 'Kalori alımınızı artırın ve protein ağırlıklı beslenin.';
+                } else if (bmi < 25) {
+                    status = 'Normal';
+                    suggestion = 'Mevcut kilonuzu koruyun ve dengeli beslenmeye devam edin.';
+                } else if (bmi < 30) {
+                    status = 'Fazla Kilolu';
+                    suggestion = 'Düşük kalorili, yüksek proteinli beslenme programı uygulayın.';
+                } else {
+                    status = 'Obez';
+                    suggestion = 'Doktor kontrolünde beslenme programı uygulayın.';
+                }
+
+                bmiStatus.textContent = status;
+                bmiSuggestion.textContent = suggestion;
+                bmiResults.classList.add('active');
+            }
+        });
+
+        // Macro Calculator
+        const macroForm = document.getElementById('macro-form');
+        const macroResults = document.getElementById('macro-results');
+        const calorieValue = document.getElementById('calorie-value');
+        const proteinValue = document.getElementById('protein-value');
+        const carbValue = document.getElementById('carb-value');
+        const fatValue = document.getElementById('fat-value');
+
+        macroForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const weight = parseFloat(document.getElementById('macro-weight').value);
+            const height = parseFloat(document.getElementById('macro-height').value);
+            const age = parseInt(document.getElementById('macro-age').value);
+            const activity = parseFloat(document.getElementById('macro-activity').value);
+
+            if (weight && height && age && activity) {
+                // Basit BMR hesaplama (Harris-Benedict formülü)
+                const bmr = 10 * weight + 6.25 * height - 5 * age + 5;
+                const tdee = bmr * activity;
+
+                // Makro hesaplama
+                const protein = (weight * 2.2).toFixed(0);
+                const fat = ((tdee * 0.25) / 9).toFixed(0);
+                const carb = ((tdee - (protein * 4) - (fat * 9)) / 4).toFixed(0);
+
+                calorieValue.textContent = Math.round(tdee);
+                proteinValue.textContent = `${protein}g`;
+                carbValue.textContent = `${carb}g`;
+                fatValue.textContent = `${fat}g`;
+
+                macroResults.classList.add('active');
+            }
+        });
+
+        // Water Tracker
+        const waterCups = document.querySelectorAll('.water-cup');
+        const waterCount = document.getElementById('water-count');
+        const resetWater = document.getElementById('reset-water');
+
+        let waterIntake = 0;
+
+        waterCups.forEach(cup => {
+            cup.addEventListener('click', function() {
+                const cupNumber = parseInt(this.getAttribute('data-cup'));
+
+                if (cupNumber > waterIntake) {
+                    // Fill all cups up to the clicked one
+                    for (let i = 0; i < cupNumber; i++) {
+                        waterCups[i].classList.add('active');
+                    }
+                    waterIntake = cupNumber;
+                } else {
+                    // Empty all cups after the clicked one
+                    for (let i = cupNumber; i < waterCups.length; i++) {
+                        waterCups[i].classList.remove('active');
+                    }
+                    waterIntake = cupNumber;
+                }
+
+                waterCount.textContent = `${waterIntake}/8 bardak su içtiniz`;
+            });
+        });
+
+        resetWater.addEventListener('click', function() {
+            waterCups.forEach(cup => {
+                cup.classList.remove('active');
+            });
+            waterIntake = 0;
+            waterCount.textContent = `${waterIntake}/8 bardak su içtiniz`;
+        });
+
+        // Smooth Scrolling for Anchor Links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 100,
+                        behavior: 'smooth'
+                    });
+
+                    // Close mobile menu if open
+                    if (nav.classList.contains('active')) {
+                        nav.classList.remove('active');
+                    }
+                }
+            });
+        });
+    });
+</script>
+</body>
+</html>
